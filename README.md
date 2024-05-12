@@ -121,8 +121,11 @@ mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="co
     Create a JUNIT Runner in IntelliJ with below options:
 
     Java: Use default system JDK (update in pom if using different versions)
+
     Class: testrunner.TestRunner
+
     VM Options: -ea -Dcucumber.filter.tags="@login" -Dbrowser=chrome -Dheadless=false -DrecordVideo=false
+
     ![image](https://github.com/harshal259/playwright-automation/assets/23015746/25ee4350-107e-4496-b88b-c34c284e6389)
 
 
