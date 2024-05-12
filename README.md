@@ -116,7 +116,7 @@ mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="co
     are saved in `target/rerun.txt`
 11. For rerunning failed test cases run `src/test/java/testrunner/ReRunner.java`
 12. Reports will be generated in `target/HTMLReport` and `target/PdfReport` folders.
-13. Runner Config:
+13. IDE Runner Config:
 
     Create a JUNIT Runner in IntelliJ with below options:
 
