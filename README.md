@@ -71,7 +71,7 @@ The following software are required:
 1. Clone the repo using below URL
 
 ```sh
-https://github.com/akshayp7/playwright-typescipt-playwright-test.git
+https://github.com/harshal259/playwright-automation.git
 ```
 
 2. Navigate to folder and install dependencies using:
