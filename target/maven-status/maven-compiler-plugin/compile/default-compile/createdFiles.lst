@@ -1,0 +1,8 @@
+utils/ConfigReader.class
+pages/InteractionsPage.class
+factory/DriverFactory.class
+pages/ElementsPage.class
+pages/AlertsFramesWindowsPage.class
+utils/WebActions.class
+pages/WidgetsPage.class
+pages/LoginPage.class
