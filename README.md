@@ -95,7 +95,7 @@ mvn verify
 3. For executing test cases in sequence, provide a suitable tag `@smoke` at the start of your scenario and execute below
    command:
 ```JS
-mvn test "-Dcucumber. options=--tags @smoke"
+mvn test "-Dcucumber. options=--tags @login"
 ```
 4. For recording test scripts execute below command with desired url:
 ```JS
@@ -116,6 +116,15 @@ mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="co
     are saved in `target/rerun.txt`
 11. For rerunning failed test cases run `src/test/java/testrunner/ReRunner.java`
 12. Reports will be generated in `target/HTMLReport` and `target/PdfReport` folders.
+13. Runner Config:
+
+    Create a JUNIT Runner in IntelliJ with below options:
+
+    Java: Use default system JDK (update in pom if using different versions)
+    Class: testrunner.TestRunner
+    VM Options: -ea -Dcucumber.filter.tags="@login" -Dbrowser=chrome -Dheadless=false -DrecordVideo=false
+    ![image](https://github.com/harshal259/playwright-automation/assets/23015746/25ee4350-107e-4496-b88b-c34c284e6389)
+
 
 ## Reports
 
