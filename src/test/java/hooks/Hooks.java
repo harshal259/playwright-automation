@@ -16,7 +16,7 @@ public class Hooks {
 
     @Before
     public void launchBrowser() {
-        String browserName = WebActions.getProperty("browser");  //Fetching browser value from config file
+        String browserName = System.getProperty("browser");  //Fetching browser value from runner config
         driverFactory = new DriverFactory();
         page = driverFactory.initDriver(browserName); // Passing browser name to launch the browser
     }

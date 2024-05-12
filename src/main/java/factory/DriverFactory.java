@@ -3,7 +3,9 @@ package factory;
 import com.microsoft.playwright.*;
 import utils.WebActions;
 
+import java.awt.*;
 import java.nio.file.Paths;
+import java.util.List;
 
 public class DriverFactory {
     public Browser browser;
@@ -16,7 +18,7 @@ public class DriverFactory {
     //Launches Browser as set by user in config file
     public Page initDriver(String browserName) {
         BrowserType browserType = null;
-        boolean headless = Boolean.valueOf(WebActions.getProperty("headless"));
+        boolean headless = Boolean.valueOf(System.getProperty("headless"));
         switch (browserName) {
             case "firefox":
                 browserType = Playwright.create().firefox();
@@ -32,10 +34,18 @@ public class DriverFactory {
                 break;
         }
         if (browserType == null) throw new IllegalArgumentException("Could not Launch Browser for type" + browserType);
-//        context = browser.newContext();
 
-        context = browser.newContext(new Browser.NewContextOptions().setRecordVideoDir(Paths.get("videos/")));
-        // Make sure to close, so that videos are saved.
+        //Window Maximize logic
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        int width = (int) screenSize.getWidth();
+        int height = (int) screenSize.getHeight();
+
+        if (Boolean.valueOf(System.getProperty("recordVideo")) == true)
+            context = browser.newContext(new Browser.NewContextOptions().setViewportSize(width,height).setRecordVideoDir(Paths.get("videos/")));
+        else
+            context = browser.newContext((new Browser.NewContextOptions().setViewportSize(width,height)));
+
+//        Make sure to close, so that videos are saved.
 //        context.close();
 
         //Below line is used to start the trace file
