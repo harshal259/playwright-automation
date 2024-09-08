@@ -16,26 +16,26 @@ public class Hooks {
 
     @Before
     public void launchBrowser() {
-        String browserName = System.getProperty("browser","chrome");  //Fetching browser value from runner config
+        String browserName = System.getProperty("browser","firefox");  //Fetching browser value from runner config
         driverFactory = new DriverFactory();
         page = driverFactory.initDriver(browserName); // Passing browser name to launch the browser
     }
 
     //After runs in reverse order so order=1 will run first
-    @After(order = 0)
-    public void quitBrowser() {
-        page.close();
-    }
+//    @After(order = 0)
+//    public void quitBrowser() {
+//        page.close();
+//    }
 
-    @After(order = 1)
-    public void takeScreenshotAndTrace(Scenario scenario) {
-        if (scenario.isFailed()) {
-            String screenshotName = scenario.getName().replaceAll("", "_"); //Replace all space in scenario name with underscore
-            byte[] sourcePath = page.screenshot();
-            scenario.attach(sourcePath, "image/png", screenshotName);  //Attach screenshot to report if scenario fails
-            DriverFactory.context.tracing().stop(new Tracing.StopOptions().setPath(Paths.get("target/" + screenshotName + ".zip")));
-        }
-    }
+//    @After(order = 1)
+//    public void takeScreenshotAndTrace(Scenario scenario) {
+//        if (scenario.isFailed()) {
+//            String screenshotName = scenario.getName().replaceAll("", "_"); //Replace all space in scenario name with underscore
+//            byte[] sourcePath = page.screenshot();
+//            scenario.attach(sourcePath, "image/png", screenshotName);  //Attach screenshot to report if scenario fails
+//            DriverFactory.context.tracing().stop(new Tracing.StopOptions().setPath(Paths.get("target/" + screenshotName + ".zip")));
+//        }
+//    }
 
 
 }
