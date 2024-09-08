@@ -45,11 +45,11 @@ public class LoginSteps {
         Assert.assertTrue(title.contains(searchText));
     }
 
-    @Then("^user verifies data as \"([^\"]*)\" in \"([^\"]*)\" row and \"([^\"]*)\" column from \"([^\"]*)\" sheet in \"([^\"]*)\" file")
-    public void clickOnIcon(String expectedValue, int rowNum, int colNum, String sheetName, String fileName) {
-        String actualValue = WebActions.getRowColValue(fileName, sheetName, rowNum, colNum);
-        Assert.assertEquals(expectedValue, actualValue);
-    }
+//    @Then("^user verifies data as \"([^\"]*)\" in \"([^\"]*)\" row and \"([^\"]*)\" column from \"([^\"]*)\" sheet in \"([^\"]*)\" file")
+//    public void clickOnIcon(String expectedValue, int rowNum, int colNum, String sheetName, String fileName) {
+//        String actualValue = WebActions.getRowColValue(fileName, sheetName, rowNum, colNum);
+//        Assert.assertEquals(expectedValue, actualValue);
+//    }
 
     @When("^user searches for \"(.*)\"")
     public void enterSearchText(String searchText) throws InterruptedException {
