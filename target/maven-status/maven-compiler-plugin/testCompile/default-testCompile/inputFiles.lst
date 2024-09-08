@@ -1,8 +1,8 @@
-/home/harshal/Projects/playwright-java-cucumber/src/test/java/stepdefinitions/LoginSteps.java
-/home/harshal/Projects/playwright-java-cucumber/src/test/java/testrunner/ReRunner.java
-/home/harshal/Projects/playwright-java-cucumber/src/test/java/stepdefinitions/ElementsSteps.java
-/home/harshal/Projects/playwright-java-cucumber/src/test/java/hooks/Hooks.java
-/home/harshal/Projects/playwright-java-cucumber/src/test/java/testrunner/TestRunner.java
-/home/harshal/Projects/playwright-java-cucumber/src/test/java/stepdefinitions/AlertsFramesWindowsSteps.java
-/home/harshal/Projects/playwright-java-cucumber/src/test/java/stepdefinitions/InteractionsSteps.java
-/home/harshal/Projects/playwright-java-cucumber/src/test/java/stepdefinitions/WidgetsSteps.java
+/home/harshal/Projects/playwright-automation/src/test/java/hooks/Hooks.java
+/home/harshal/Projects/playwright-automation/src/test/java/testrunner/TestRunner.java
+/home/harshal/Projects/playwright-automation/src/test/java/stepdefinitions/LoginSteps.java
+/home/harshal/Projects/playwright-automation/src/test/java/testrunner/ReRunner.java
+/home/harshal/Projects/playwright-automation/src/test/java/stepdefinitions/AlertsFramesWindowsSteps.java
+/home/harshal/Projects/playwright-automation/src/test/java/stepdefinitions/WidgetsSteps.java
+/home/harshal/Projects/playwright-automation/src/test/java/stepdefinitions/ElementsSteps.java
+/home/harshal/Projects/playwright-automation/src/test/java/stepdefinitions/InteractionsSteps.java

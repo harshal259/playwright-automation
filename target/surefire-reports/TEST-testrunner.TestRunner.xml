@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testrunner.TestRunner" time="87.737" tests="6" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testrunner.TestRunner" time="7.842" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/harshal/Projects/playwright-java-cucumber/target/test-classes:/home/harshal/Projects/playwright-java-cucumber/target/classes:/home/harshal/.m2/repository/io/cucumber/cucumber-java/7.11.1/cucumber-java-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-core/7.11.1/cucumber-core-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-gherkin/7.11.1/cucumber-gherkin-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.1/cucumber-gherkin-messages-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/home/harshal/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/home/harshal/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/home/harshal/.m2/repository/io/cucumber/datatable/7.11.1/datatable-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-plugin/7.11.1/cucumber-plugin-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/docstring/7.11.1/docstring-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/home/harshal/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/home/harshal/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/home/harshal/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-junit/7.11.1/cucumber-junit-7.11.1.jar:/home/harshal/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/harshal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/harshal/.m2/repository/com/microsoft/playwright/playwright/1.31.0/playwright-1.31.0.jar:/home/harshal/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/harshal/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/harshal/.m2/repository/com/microsoft/playwright/driver/1.31.0/driver-1.31.0.jar:/home/harshal/.m2/repository/com/microsoft/playwright/driver-bundle/1.31.0/driver-bundle-1.31.0.jar:/home/harshal/.m2/repository/tech/grasshopper/extentreports-cucumber7-adapter/1.10.1/extentreports-cucumber7-adapter-1.10.1.jar:/home/harshal/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/home/harshal/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/home/harshal/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/harshal/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/home/harshal/.m2/repository/tech/grasshopper/extent-pdf-report/2.9.1/extent-pdf-report-2.9.1.jar:/home/harshal/.m2/repository/tech/grasshopper/cucumber-pdf-report/2.11.1/cucumber-pdf-report-2.11.1.jar:/home/harshal/.m2/repository/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.jar:/home/harshal/.m2/repository/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.jar:/home/harshal/.m2/repository/org/knowm/xchart/xchart/3.8.0/xchart-3.8.0.jar:/home/harshal/.m2/repository/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar:/home/harshal/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/home/harshal/.m2/repository/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar:/home/harshal/.m2/repository/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar:/home/harshal/.m2/repository/tech/grasshopper/table-layout/1.5.1/table-layout-1.5.1.jar:/home/harshal/.m2/repository/tech/grasshopper/rest-assured-cucumber-pdf-report/1.4.1/rest-assured-cucumber-pdf-report-1.4.1.jar:/home/harshal/.m2/repository/org/jsoup/jsoup/1.15.3/jsoup-1.15.3.jar:/home/harshal/.m2/repository/com/aventstack/klov-reporter/5.0.9/klov-reporter-5.0.9.jar:/home/harshal/.m2/repository/org/mongodb/mongodb-driver/3.6.4/mongodb-driver-3.6.4.jar:/home/harshal/.m2/repository/org/mongodb/mongodb-driver-core/3.6.4/mongodb-driver-core-3.6.4.jar:/home/harshal/.m2/repository/org/mongodb/bson/3.6.4/bson-3.6.4.jar:/home/harshal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/harshal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/harshal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/harshal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/harshal/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar:/home/harshal/.m2/repository/tech/grasshopper/extent-excel-report/1.3.0/extent-excel-report-1.3.0.jar:/home/harshal/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/home/harshal/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/home/harshal/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/home/harshal/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/harshal/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/home/harshal/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar:/home/harshal/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/home/harshal/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/harshal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/harshal/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/harshal/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/harshal/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/home/harshal/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:"/>
+    <property name="java.class.path" value="/home/harshal/Projects/playwright-automation/target/test-classes:/home/harshal/Projects/playwright-automation/target/classes:/home/harshal/.m2/repository/io/cucumber/cucumber-java/7.11.1/cucumber-java-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-core/7.11.1/cucumber-core-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-gherkin/7.11.1/cucumber-gherkin-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.1/cucumber-gherkin-messages-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/home/harshal/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/home/harshal/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/home/harshal/.m2/repository/io/cucumber/datatable/7.11.1/datatable-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-plugin/7.11.1/cucumber-plugin-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/docstring/7.11.1/docstring-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/home/harshal/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/home/harshal/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/home/harshal/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-junit/7.11.1/cucumber-junit-7.11.1.jar:/home/harshal/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/harshal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/harshal/.m2/repository/com/microsoft/playwright/playwright/1.31.0/playwright-1.31.0.jar:/home/harshal/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/harshal/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/harshal/.m2/repository/com/microsoft/playwright/driver/1.31.0/driver-1.31.0.jar:/home/harshal/.m2/repository/com/microsoft/playwright/driver-bundle/1.31.0/driver-bundle-1.31.0.jar:/home/harshal/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar:/home/harshal/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/home/harshal/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/harshal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/harshal/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/harshal/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/harshal/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/home/harshal/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -11,39 +11,38 @@
     <property name="java.vm.specification.version" value="22"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/home/harshal/.jdks/openjdk-22.0.1/lib"/>
-    <property name="sun.java.command" value="/home/harshal/Projects/playwright-java-cucumber/target/surefire/surefirebooter15651676022204325130.jar /home/harshal/Projects/playwright-java-cucumber/target/surefire 2024-05-11T18-19-18_986-jvmRun1 surefire11409899376339568047tmp surefire_01410519889312710492tmp"/>
+    <property name="sun.boot.library.path" value="/home/harshal/.jdks/openjdk-22.0.2/lib"/>
+    <property name="sun.java.command" value="/home/harshal/Projects/playwright-automation/target/surefire/surefirebooter14567945248595996543.jar /home/harshal/Projects/playwright-automation/target/surefire 2024-09-08T12-06-07_573-jvmRun1 surefire15760099517369594844tmp surefire_01176702623878428713tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/harshal/Projects/playwright-java-cucumber/target/test-classes:/home/harshal/Projects/playwright-java-cucumber/target/classes:/home/harshal/.m2/repository/io/cucumber/cucumber-java/7.11.1/cucumber-java-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-core/7.11.1/cucumber-core-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-gherkin/7.11.1/cucumber-gherkin-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.1/cucumber-gherkin-messages-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/home/harshal/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/home/harshal/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/home/harshal/.m2/repository/io/cucumber/datatable/7.11.1/datatable-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-plugin/7.11.1/cucumber-plugin-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/docstring/7.11.1/docstring-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/home/harshal/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/home/harshal/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/home/harshal/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-junit/7.11.1/cucumber-junit-7.11.1.jar:/home/harshal/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/harshal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/harshal/.m2/repository/com/microsoft/playwright/playwright/1.31.0/playwright-1.31.0.jar:/home/harshal/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/harshal/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/harshal/.m2/repository/com/microsoft/playwright/driver/1.31.0/driver-1.31.0.jar:/home/harshal/.m2/repository/com/microsoft/playwright/driver-bundle/1.31.0/driver-bundle-1.31.0.jar:/home/harshal/.m2/repository/tech/grasshopper/extentreports-cucumber7-adapter/1.10.1/extentreports-cucumber7-adapter-1.10.1.jar:/home/harshal/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/home/harshal/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/home/harshal/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/harshal/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/home/harshal/.m2/repository/tech/grasshopper/extent-pdf-report/2.9.1/extent-pdf-report-2.9.1.jar:/home/harshal/.m2/repository/tech/grasshopper/cucumber-pdf-report/2.11.1/cucumber-pdf-report-2.11.1.jar:/home/harshal/.m2/repository/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.jar:/home/harshal/.m2/repository/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.jar:/home/harshal/.m2/repository/org/knowm/xchart/xchart/3.8.0/xchart-3.8.0.jar:/home/harshal/.m2/repository/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar:/home/harshal/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/home/harshal/.m2/repository/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar:/home/harshal/.m2/repository/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar:/home/harshal/.m2/repository/tech/grasshopper/table-layout/1.5.1/table-layout-1.5.1.jar:/home/harshal/.m2/repository/tech/grasshopper/rest-assured-cucumber-pdf-report/1.4.1/rest-assured-cucumber-pdf-report-1.4.1.jar:/home/harshal/.m2/repository/org/jsoup/jsoup/1.15.3/jsoup-1.15.3.jar:/home/harshal/.m2/repository/com/aventstack/klov-reporter/5.0.9/klov-reporter-5.0.9.jar:/home/harshal/.m2/repository/org/mongodb/mongodb-driver/3.6.4/mongodb-driver-3.6.4.jar:/home/harshal/.m2/repository/org/mongodb/mongodb-driver-core/3.6.4/mongodb-driver-core-3.6.4.jar:/home/harshal/.m2/repository/org/mongodb/bson/3.6.4/bson-3.6.4.jar:/home/harshal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/harshal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/harshal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/harshal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/harshal/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar:/home/harshal/.m2/repository/tech/grasshopper/extent-excel-report/1.3.0/extent-excel-report-1.3.0.jar:/home/harshal/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/home/harshal/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/home/harshal/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/home/harshal/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/harshal/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/home/harshal/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar:/home/harshal/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/home/harshal/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/harshal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/harshal/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/harshal/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/harshal/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/home/harshal/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:"/>
+    <property name="surefire.test.class.path" value="/home/harshal/Projects/playwright-automation/target/test-classes:/home/harshal/Projects/playwright-automation/target/classes:/home/harshal/.m2/repository/io/cucumber/cucumber-java/7.11.1/cucumber-java-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-core/7.11.1/cucumber-core-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-gherkin/7.11.1/cucumber-gherkin-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.1/cucumber-gherkin-messages-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/home/harshal/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/home/harshal/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/home/harshal/.m2/repository/io/cucumber/datatable/7.11.1/datatable-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-plugin/7.11.1/cucumber-plugin-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/docstring/7.11.1/docstring-7.11.1.jar:/home/harshal/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/home/harshal/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/home/harshal/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/home/harshal/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/harshal/.m2/repository/io/cucumber/cucumber-junit/7.11.1/cucumber-junit-7.11.1.jar:/home/harshal/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/harshal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/harshal/.m2/repository/com/microsoft/playwright/playwright/1.31.0/playwright-1.31.0.jar:/home/harshal/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/harshal/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/harshal/.m2/repository/com/microsoft/playwright/driver/1.31.0/driver-1.31.0.jar:/home/harshal/.m2/repository/com/microsoft/playwright/driver-bundle/1.31.0/driver-bundle-1.31.0.jar:/home/harshal/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar:/home/harshal/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/home/harshal/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/harshal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/harshal/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/harshal/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/harshal/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/home/harshal/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/harshal"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2024-04-16"/>
-    <property name="java.home" value="/home/harshal/.jdks/openjdk-22.0.1"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/home/harshal/.jdks/openjdk-22.0.2"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/harshal/Projects/playwright-java-cucumber"/>
+    <property name="basedir" value="/home/harshal/Projects/playwright-automation"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/harshal/Projects/playwright-java-cucumber/target/surefire/surefirebooter15651676022204325130.jar"/>
+    <property name="surefire.real.class.path" value="/home/harshal/Projects/playwright-automation/target/surefire/surefirebooter14567945248595996543.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="java.runtime.version" value="22.0.2+9-70"/>
     <property name="user.name" value="harshal"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="6.8.8-1-default"/>
+    <property name="os.version" value="6.10.8-1-default"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="localRepository" value="/home/harshal/.m2/repository"/>
-    <property name="cucumber.options" value="&quot;--tags @login&quot;"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="idea.version" value="2024.1.1"/>
-    <property name="java.version" value="22.0.1"/>
-    <property name="user.dir" value="/home/harshal/Projects/playwright-java-cucumber"/>
+    <property name="idea.version" value="2024.2.1"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="/home/harshal/Projects/playwright-automation"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -51,86 +50,28 @@
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="UTF-8"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="java.vm.version" value="22.0.2+9-70"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="Verify User is able to handle pop up windows, frames and alerts" classname="Verify Alerts, Frame &amp; Windows Page" time="30.262"/>
-  <testcase name="Verify User is able to perform actions on Web Elements in Elements page" classname="Verify the functionalities of Elements page" time="8.587"/>
-  <testcase name="Get value from specified Row and Column from xlsx file" classname="Read from Excel File" time="1.902">
-    <error message="java.io.FileNotFoundException: /home/harshal/Projects/playwright-java-cucumber\src\main\java\utils\functional\Students.xlsx" type="java.lang.RuntimeException">java.lang.RuntimeException: java.io.FileNotFoundException: /home/harshal/Projects/playwright-java-cucumber\src\main\java\utils\functional\Students.xlsx
-Caused by: java.io.FileNotFoundException: /home/harshal/Projects/playwright-java-cucumber\src\main\java\utils\functional\Students.xlsx
-</error>
-    <system-out><![CDATA[
-Scenario: Get value from specified Row and Column from xlsx file                                     &amp#27;[90m# src/test/resources/features/ExcelReader.feature:3&amp#27;[0m
-  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser verifies data as "&amp#27;[0m&amp#27;[31m&amp#27;[1mJohn&amp#27;[0m&amp#27;[31m" in "&amp#27;[0m&amp#27;[31m&amp#27;[1m1&amp#27;[0m&amp#27;[31m" row and "&amp#27;[0m&amp#27;[31m&amp#27;[1m1&amp#27;[0m&amp#27;[31m" column from "&amp#27;[0m&amp#27;[31m&amp#27;[1mSheet1&amp#27;[0m&amp#27;[31m" sheet in "&amp#27;[0m&amp#27;[31m&amp#27;[1mStudents&amp#27;[0m&amp#27;[31m" file&amp#27;[0m &amp#27;[90m# stepdefinitions.LoginSteps.clickOnIcon(java.lang.String,int,int,java.lang.String,java.lang.String)&amp#27;[0m
-      &amp#27;[31mjava.lang.RuntimeException: java.io.FileNotFoundException: /home/harshal/Projects/playwright-java-cucumber\src\main\java\utils\functional\Students.xlsx
-	at utils.WebActions.getRowColValue(WebActions.java:66)
-	at stepdefinitions.LoginSteps.clickOnIcon(LoginSteps.java:46)
-	at ✽.user verifies data as "John" in "1" row and "1" column from "Sheet1" sheet in "Students" file(file:///home/harshal/Projects/playwright-java-cucumber/src/test/resources/features/ExcelReader.feature:4)
-Caused by: java.io.FileNotFoundException: /home/harshal/Projects/playwright-java-cucumber\src\main\java\utils\functional\Students.xlsx
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:302)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:277)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:255)
-	at utils.WebActions.getRowColValue(WebActions.java:64)
-	at stepdefinitions.LoginSteps.clickOnIcon(LoginSteps.java:46)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
-	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
-	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
-	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-&amp#27;[0m
+  <testcase name="user navigates to &quot;url&quot;" classname="Verify User is able to login to Book Store with correct credentials" time="1.519">
+    <system-out><![CDATA[In Before
 
-    Embedding _G_e_t_ _v_a_l_u_e_ _f_r_o_m_ _s_p_e_c_i_f_i_e_d_ _R_o_w_ _a_n_d_ _C_o_l_u_m_n_ _f_r_o_m_ _x_l_s_x_ _f_i_l_e_ [image/png 5307 bytes]
-
+@test
+Scenario Outline: Verify User is able to login to Book Store with correct credentials # src/test/resources/features/Login.feature:13
 ]]></system-out>
   </testcase>
-  <testcase name="Verify User is able perform Drag and Drop" classname="Verify Interactions Page" time="7.109"/>
-  <testcase name="Verify User is able to login to Book Store with correct credentials" classname="Login Page feature" time="7.308"/>
-  <testcase name="Verify User is interact with Widgets" classname="Verify Widgets Page" time="29.163"/>
+  <testcase name="user searches for &quot;Docker Playwright&quot;" classname="Verify User is able to login to Book Store with correct credentials" time="3.239">
+    <system-out><![CDATA[  Given user navigates to "url"                                                       # stepdefinitions.LoginSteps.navigateToUrl(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="verify search results are displayed and contain &quot;Docker Playwright&quot;" classname="Verify User is able to login to Book Store with correct credentials" time="0.062">
+    <system-out><![CDATA[  When user searches for "Docker Playwright"                                          # stepdefinitions.LoginSteps.enterSearchText(java.lang.String)
+Page title is: Docker Playwright - Google Search
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Verify User is able to login to Book Store with correct credentials" time="0.076">
+    <system-out><![CDATA[  Then verify search results are displayed and contain "Docker Playwright"            # stepdefinitions.LoginSteps.verifySearchResultsDisplayed(java.lang.String)
+]]></system-out>
+  </testcase>
 </testsuite>

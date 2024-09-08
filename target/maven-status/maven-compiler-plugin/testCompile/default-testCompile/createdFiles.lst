@@ -1,6 +1,6 @@
 stepdefinitions/AlertsFramesWindowsSteps.class
-testrunner/ReRunner.class
 stepdefinitions/InteractionsSteps.class
+testrunner/ReRunner.class
 hooks/Hooks.class
 testrunner/TestRunner.class
 stepdefinitions/WidgetsSteps.class

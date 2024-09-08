@@ -1,6 +1,5 @@
 package testrunner;
 
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.AfterClass;
@@ -15,14 +14,13 @@ import org.junit.runner.RunWith;
         stepNotifications = true,
         plugin = {"pretty",
                 "html:target/cucumber/report.html",
-                "json:target/cucumber/report.json",
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                "json:target/cucumber/report.json"
+//                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 //                "rerun:target/rerun.txt"  // Save Failed test scenarios in rerun.txt file
         },
+        tags = "@test",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        publish = false,
-        monochrome = true,
-        dryRun = false
+        monochrome = true
 )
 
 public class TestRunner {

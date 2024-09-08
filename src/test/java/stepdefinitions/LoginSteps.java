@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import com.microsoft.playwright.Page;
 import factory.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -26,8 +27,8 @@ public class LoginSteps {
         loginPage.enterPassword(password);
     }
 
-    @When("^user clicks Login button$")
-    public void clickLogin() {
+    @When("^user clicks Search button$")
+    public void clickSearch() {
         loginPage.clickLogin();
     }
 
@@ -36,14 +37,23 @@ public class LoginSteps {
         loginPage.clickOnIcon(iconName);
     }
 
-    @Then("verify that user is logged in and navigated to Profile page")
-    public void verifyProfilePage() {
-        Assert.assertTrue(loginPage.verifyProfilePage());
+    @Then("verify search results are displayed and contain {string}")
+    public void verifySearchResultsDisplayed(String searchText) {
+        Assert.assertTrue(loginPage.verifyResultsPage());
+        String title = loginPage.getPageTitle();
+        System.out.println("Page title is: " + DriverFactory.getPage().title());
+        Assert.assertTrue(title.contains(searchText));
     }
 
     @Then("^user verifies data as \"([^\"]*)\" in \"([^\"]*)\" row and \"([^\"]*)\" column from \"([^\"]*)\" sheet in \"([^\"]*)\" file")
     public void clickOnIcon(String expectedValue, int rowNum, int colNum, String sheetName, String fileName) {
         String actualValue = WebActions.getRowColValue(fileName, sheetName, rowNum, colNum);
         Assert.assertEquals(expectedValue, actualValue);
+    }
+
+    @When("^user searches for \"(.*)\"")
+    public void enterSearchText(String searchText) throws InterruptedException {
+        loginPage.searchFor(searchText);
+        Thread.sleep(3000);
     }
 }

@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: testrunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 87.737 s <<< FAILURE! - in testrunner.TestRunner
-Get value from specified Row and Column from xlsx file(Read from Excel File)  Time elapsed: 1.902 s  <<< ERROR!
-java.lang.RuntimeException: java.io.FileNotFoundException: /home/harshal/Projects/playwright-java-cucumber\src\main\java\utils\functional\Students.xlsx
-Caused by: java.io.FileNotFoundException: /home/harshal/Projects/playwright-java-cucumber\src\main\java\utils\functional\Students.xlsx
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.842 s - in testrunner.TestRunner

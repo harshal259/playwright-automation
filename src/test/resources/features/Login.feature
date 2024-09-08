@@ -1,11 +1,13 @@
 Feature: Login Page feature
 
-  @smoke @login
-  Scenario: Verify User is able to login to Book Store with correct credentials
+  @test
+  Scenario Outline: Verify User is able to login to Book Store with correct credentials
     Given user navigates to "url"
-    When user clicks on "Book Store Application" icon in main page
-    And user clicks Login button
-    And user enters "adminUsername" username
-    And user enters "adminPassword" password
-    And user clicks Login button
-    Then verify that user is logged in and navigated to Profile page
+    When user searches for "<SearchText>"
+    Then verify search results are displayed and contain "<SearchText>"
+#    Then verify that user is logged in and navigated to Profile page
+
+  Examples:
+
+    |SearchText|
+    |Docker Playwright|

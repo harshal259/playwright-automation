@@ -1,8 +1,8 @@
-/home/harshal/Projects/playwright-java-cucumber/src/main/java/utils/WebActions.java
-/home/harshal/Projects/playwright-java-cucumber/src/main/java/utils/ConfigReader.java
-/home/harshal/Projects/playwright-java-cucumber/src/main/java/factory/DriverFactory.java
-/home/harshal/Projects/playwright-java-cucumber/src/main/java/pages/ElementsPage.java
-/home/harshal/Projects/playwright-java-cucumber/src/main/java/pages/WidgetsPage.java
-/home/harshal/Projects/playwright-java-cucumber/src/main/java/pages/LoginPage.java
-/home/harshal/Projects/playwright-java-cucumber/src/main/java/pages/AlertsFramesWindowsPage.java
-/home/harshal/Projects/playwright-java-cucumber/src/main/java/pages/InteractionsPage.java
+/home/harshal/Projects/playwright-automation/src/main/java/pages/ElementsPage.java
+/home/harshal/Projects/playwright-automation/src/main/java/pages/WidgetsPage.java
+/home/harshal/Projects/playwright-automation/src/main/java/utils/WebActions.java
+/home/harshal/Projects/playwright-automation/src/main/java/pages/AlertsFramesWindowsPage.java
+/home/harshal/Projects/playwright-automation/src/main/java/factory/DriverFactory.java
+/home/harshal/Projects/playwright-automation/src/main/java/utils/ConfigReader.java
+/home/harshal/Projects/playwright-automation/src/main/java/pages/InteractionsPage.java
+/home/harshal/Projects/playwright-automation/src/main/java/pages/LoginPage.java
