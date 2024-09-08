@@ -36,14 +36,16 @@ public class DriverFactory {
         if (browserType == null) throw new IllegalArgumentException("Could not Launch Browser for type" + browserType);
 
         //Window Maximize logic
-        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-        int width = (int) screenSize.getWidth();
-        int height = (int) screenSize.getHeight();
+//        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+//        int width = (int) screenSize.getWidth();
+//        int height = (int) screenSize.getHeight();
 
         if (Boolean.valueOf(System.getProperty("recordVideo")) == true)
-            context = browser.newContext(new Browser.NewContextOptions().setViewportSize(width,height).setRecordVideoDir(Paths.get("videos/")));
+//            context = browser.newContext(new Browser.NewContextOptions().setViewportSize(width,height).setRecordVideoDir(Paths.get("videos/")));
+            context = browser.newContext(new Browser.NewContextOptions().setRecordVideoDir(Paths.get("videos/")));
         else
-            context = browser.newContext((new Browser.NewContextOptions().setViewportSize(width,height)));
+//            context = browser.newContext((new Browser.NewContextOptions().setViewportSize(width,height)));
+            context = browser.newContext((new Browser.NewContextOptions()));
 
 //        Make sure to close, so that videos are saved.
 //        context.close();
