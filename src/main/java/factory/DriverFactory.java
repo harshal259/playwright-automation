@@ -5,7 +5,9 @@ import utils.WebActions;
 
 import java.awt.*;
 import java.nio.file.Paths;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class DriverFactory {
     public Browser browser;
@@ -18,18 +20,22 @@ public class DriverFactory {
     //Launches Browser as set by user in config file
     public Page initDriver(String browserName) {
         BrowserType browserType = null;
-        boolean     headless = Boolean.valueOf(System.getProperty("headless", "true"));
+        Map<String,String> env = new HashMap<>();
+
+        boolean headless = Boolean.valueOf(System.getProperty("headless", "true"));
+        env.put("PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD","1");
+
         switch (browserName) {
             case "firefox":
-                browserType = Playwright.create().firefox();
+                browserType = Playwright.create(new Playwright.CreateOptions().setEnv(env)).firefox();
                 browser = browserType.launch(new BrowserType.LaunchOptions().setHeadless(headless));
                 break;
             case "chrome":
-                browserType = Playwright.create().chromium();
+                browserType = Playwright.create(new Playwright.CreateOptions().setEnv(env)).chromium();
                 browser = browserType.launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(headless));
                 break;
             case "webkit":
-                browserType = Playwright.create().webkit();
+                browserType = Playwright.create(new Playwright.CreateOptions().setEnv(env)).webkit();
                 browser = browserType.launch(new BrowserType.LaunchOptions().setHeadless(headless));
                 break;
         }

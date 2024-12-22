@@ -59,6 +59,9 @@ public class LoginPage {
     public String getPageTitle() {
         return page.title();
     }
+    public String getURL() {
+        return page.url();
+    }
 
 
 

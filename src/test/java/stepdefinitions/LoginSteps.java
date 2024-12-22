@@ -9,12 +9,16 @@ import org.junit.Assert;
 import pages.LoginPage;
 import utils.WebActions;
 
+import java.util.logging.Logger;
+
 public class LoginSteps {
     LoginPage loginPage = new LoginPage(DriverFactory.getPage());
 
     @Given("^user navigates to \"([^\"]*)\"$")
     public void navigateToUrl(String url) {
         loginPage.navigateToUrl(url);
+        System.out.println("\nNavigated to URL: " + loginPage.getURL());
+        System.out.println("\nPage title is: " + loginPage.getPageTitle());
     }
 
     @When("^user enters \"([^\"]*)\" username$")
@@ -41,7 +45,7 @@ public class LoginSteps {
     public void verifySearchResultsDisplayed(String searchText) {
         Assert.assertTrue(loginPage.verifyResultsPage());
         String title = loginPage.getPageTitle();
-        System.out.println("Page title is: " + DriverFactory.getPage().title());
+        System.out.println("\nPage title is: " + DriverFactory.getPage().title());
         Assert.assertTrue(title.contains(searchText));
     }
 
