@@ -1,4 +1,4 @@
-FROM node:20-bookworm
+FROM ubuntu:latest
 
 RUN apt-get update && \
     apt-get upgrade -y && \
