@@ -23,7 +23,7 @@ public class DriverFactory {
         Map<String,String> env = new HashMap<>();
 
         boolean headless = Boolean.valueOf(System.getProperty("headless", "true"));
-        env.put("PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD","1");
+        env.put("PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD","0");
 
         switch (browserName) {
             case "firefox":
